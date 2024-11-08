@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 320px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.hero {
+    position: relative;
+    background-color: #dd5a69;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    color: white;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.button-card {
+    padding: 15px;
+}
+
+.button-card button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    color:  #dd5a69;
+    background-color: #f7f7f7;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-card button:last-child {
+    margin-bottom: 0;
+}
